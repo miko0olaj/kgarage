@@ -1,0 +1,191 @@
+/* F O O T E R */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    margin-bottom: 0px;
+    transform: translateY(0px);
+
+}
+
+.footermain{
+    display: block;
+}
+.footermain-left{
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 60px;
+}
+
+
+.footerinfo-ul{
+    width: 180px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footerinfo-ul-a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+
+.footerinfo-ul-li:hover a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.footerinfo-ul-div{
+    width: 180px;
+    display: block;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
+.footerinfo-ul-li{
+    padding: 8px;
+    padding-left: 0;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+
+}
+
+.footerinfo-ul-li:hover{
+    color: red;
+}
+
+
+.footerinfo-p-div {
+    display: block;
+    margin-left: 50%;
+}
+
+.footerinfo-p{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.footermain-right{
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 60px;
+}
+
+.follow-p-div{
+    display: block;
+    margin-left: 37%;
+}
+
+.follow-p{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.follow-ul-div{
+    width: 180px;
+    display: block;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 37%;
+}
+
+.follow-ul{
+    width: 180px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.follow-ul-li{
+    padding: 8px;
+    padding-left: 0;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.follow-ul-a{
+    text-decoration: none;
+}
+
+
+.copyright{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    transform: translateY(94px);
+    font-size: 14px;
+    padding: 0;
+    height: 14px;
+    width: 100%;
+
+}
+
+/*--- ikonki (kolory) ---*/
+
+.fa-brands{
+    color: white;
+}
+.fa1-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa2-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa3-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa4-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa-youtube{
+    color: red;
+}
+.fa1:hover .fa1-a{
+    color: red;
+}
+.fa-instagram{
+    color:#c32aa3;
+}
+.fa2:hover .fa2-a{
+    color: #c32aa3;
+}
+.fa-discord{
+    color: #7289d9;
+}
+.fa3:hover .fa3-a{
+    color: #7289d9;
+}
+.fa4{
+    color:white;
+}
+.fa4:hover .fa4-a{
+    color:#00f2ea;
+}
+
+
+.mark{
+    user-select: none;
+    cursor: default;
+}
