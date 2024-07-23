@@ -232,16 +232,18 @@ a:visited {
 }
 
 .fa-solid{
-    color: black;
+    color: white;
     font-size: 22px;
+    font-weight: 100;
 }
 .linkicon{
     transform: translateX(134px);
-    transition: visibility 1.5s;
+    transition: opacity 0.5s, box-shadow 0.5s;
     z-index: 11;
     margin: 80px 0;
-    visibility: hidden;
-    border: 1px solid red;
+    opacity: 0;
+    box-shadow: none;
+    border-radius: 5px;
 }
 
 
@@ -256,17 +258,20 @@ a:visited {
     z-index: 10;
     background-color: transparent;
     filter: none;
-    transition: filter 0.6s;
+    transition-property: filter;
+    transition-duration: 0.6s;
 }
 
 .linkimage:hover{
-    filter: blur(4px) grayscale(50%);
+    filter: brightness(0.35);
 }
 
 .main2:hover .linkicon{
-    visibility: visible;
+    opacity: 1;
 }
-
+.linkicon:hover{
+    box-shadow: 0px 0px 50px 35px rgba(0, 0, 0, 1);
+}
 
 
 .text-h1-2{
