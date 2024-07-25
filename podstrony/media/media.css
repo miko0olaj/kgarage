@@ -26,7 +26,6 @@ body{
     background-color: rgb(185, 185, 185);
 }
 
-/*---zaznaczanie tekst---*/
 
 
 .fixed {
@@ -75,6 +74,7 @@ body{
     transition-duration: 0.5s;
 }
 
+
 a:visited {
     color:white;
 }
@@ -106,22 +106,50 @@ a:visited {
     .navbar{
         transform: translateY(0px);
     }
-
-    /*nie działa ??? ale jak to ???*/
-
-
-    .text-h1{
-        font-size: 20px;
-        left: -765px;
-    }
-
-    .text-1{
-        font-size: 10px;
-    }
-
 }
 
+
+/*---strona główna ---*/
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .main1, .main2{
+   display: flex;
+    align-items: stretch;
+    width: 80%;
+    margin: auto;
+  }
+
+  .main1{
+    height: 540px;
+    padding-top: 144px;
+  }
+
+  .main2{
+    height: 370px;
+  }
+
+  .flexitem{
+    background-color: rgb(202, 213, 233);
+    border: 1px solid darkmagenta;
+  }
+
+  .flexitem2, .flexitem3{
+    flex-grow: 1;
+  }
+  .flexitem1{
+    flex-grow: 1.5;
+  }
+
+  .flexitem4, .flexitem5{
+    flex: 50%;
+  }
+
 /* -- stopka -- */
+
 footer{
     height: 300px;
     width: 100%;
@@ -129,7 +157,7 @@ footer{
     display: block;
     margin-bottom: 0px;
     position: relative;
-    top: 140px;
+    top: 30rem;
 }
 
 .footermain{
@@ -141,6 +169,7 @@ footer{
     position: relative;
     top: 60px;
 }
+
 
 .footerinfo-ul{
     width: 180px;
