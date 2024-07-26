@@ -26,7 +26,10 @@ body{
     background-color: rgb(185, 185, 185);
 }
 
+<<<<<<< HEAD
 /*---zaznaczanie tekst---*/
+=======
+>>>>>>> media
 
 
 .fixed {
@@ -49,6 +52,10 @@ body{
 .navbar{
     transform: translateY(0px);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> media
 .navbar ul{
     background-color: black;
     list-style-type: none;
@@ -74,6 +81,10 @@ body{
     transition-duration: 0.5s;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> media
 a:visited {
     color:white;
 }
@@ -105,6 +116,7 @@ a:visited {
     .navbar{
         transform: translateY(0px);
     }
+<<<<<<< HEAD
 
     /*nie działa ??? ale jak to ???*/
     video{
@@ -127,3 +139,307 @@ a:visited {
     }
 
 }
+=======
+}
+
+
+/*---strona główna ---*/
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .main1, .main2{
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+    margin: auto;
+    
+  }
+
+  .main1{
+    height: 540px;
+    padding-top: 144px;
+  }
+
+  .main2{
+    height: 370px;
+  }
+
+  .flexitem{
+    background-color: white;
+    border: 1px solid darkmagenta;
+  }
+
+  .flexitem2, .flexitem3{
+    flex-grow: 1;
+    
+  }
+
+  .flexitem1{
+    flex-grow: 1.5;
+  }
+
+  .flexitem4, .flexitem5{
+    flex: 50%;
+  }
+
+  .iphone-img, .screen-img, .iphone-wlp, .screen-wlp{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .iphone-img, .screen-img{
+    z-index: 3;
+  }
+
+  .iphone-wlp, .screen-wlp{
+    padding-top: 35px;
+  }
+
+  .iphone-wlp{
+    border-radius: 6%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+  }
+
+  .iphone-img{
+    transform: translateY(-270px);
+  }
+  
+  .screen-img{
+    transform: translateY(-174px);
+  }
+
+  .h2-text{
+    color: black;
+    padding: 10px;
+    z-index: 10;
+  }
+
+  .link2{
+    top: -260px;
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .link3{
+    position: relative;
+    top: -119px;
+    text-align: center;
+  }
+
+  .link-wlp{
+    color:black;
+  }
+
+  .link-wlp:hover .h2-text::before{
+    transform: scaleX(1);
+}
+
+.h2-text::before{
+    content: "";
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    bottom: 12px;
+    left: 32%;
+    background-color: #ff0000;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+    width: 36%;
+}
+
+/* -- stopka -- */
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    margin-bottom: 0px;
+    position: relative;
+    top: 30rem;
+}
+
+.footermain{
+    display: block;
+}
+.footermain-left{
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 60px;
+}
+
+
+.footerinfo-ul{
+    width: 180px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footerinfo-ul-a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+
+.footerinfo-ul-li:hover a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.footerinfo-ul-div{
+    width: 180px;
+    display: block;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
+.footerinfo-ul-li{
+    padding: 8px;
+    padding-left: 0;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+
+}
+
+.footerinfo-ul-li:hover{
+    color: red;
+}
+
+
+.footerinfo-p-div {
+    display: block;
+    margin-left: 50%;
+}
+
+.footerinfo-p{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+
+/*------*/
+.footermain-right{
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 60px;
+}
+
+.follow-p-div{
+    display: block;
+    margin-left: 37%;
+}
+
+.follow-p{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.follow-ul-div{
+    width: 180px;
+    display: block;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 37%;
+}
+
+.follow-ul{
+    width: 180px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.follow-ul-li{
+    padding: 8px;
+    padding-left: 0;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.follow-ul-a{
+    text-decoration: none;
+}
+
+/*--- ikonki (kolory) ---*/
+
+.fa-brands{
+    color: white;
+}
+.fa1-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa2-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa3-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa4-a{
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.fa-youtube{
+    color: red;
+}
+.fa1:hover .fa1-a{
+    color: red;
+}
+.fa-instagram{
+    color:#c32aa3;
+}
+.fa2:hover .fa2-a{
+    color: #c32aa3;
+}
+.fa-discord{
+    color: #7289d9;
+}
+.fa3:hover .fa3-a{
+    color: #7289d9;
+}
+.fa4{
+    color:white;
+}
+.fa4:hover .fa4-a{
+    color:#00f2ea;
+}
+
+
+.mark{
+    user-select: none;
+    cursor: default;
+}
+
+
+
+.copyright{
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    height: 0px;
+    top: 100px;
+    display: block;
+    margin-top: 0;
+    font-size: 14px;
+}
+>>>>>>> media
